@@ -1,0 +1,22 @@
+BITS Virtual Lab handover checklist
+
+1. Download and extract the project ZIP.
+2. Upload/copy the extracted folder to BITS Virtual Lab.
+3. Open a terminal in the project folder and run:
+   pip install -r requirements.txt
+4. Check that the model/ directory already contains five .joblib files.
+   If those files are missing or incompatible, run:
+   python train_models.py
+5. Launch:
+   streamlit run app.py
+6. Test the included test_data.csv. Then try uploading it through the app.
+7. Capture one screenshot of the running project in BITS Virtual Lab.
+8. Push the project to your own GitHub repository.
+9. Deploy app.py using Streamlit Community Cloud.
+10. Edit the submission PDF by adding your actual GitHub URL, live Streamlit URL,
+    and the required screenshot. Do not submit placeholders.
+
+If BITS Lab blocks installing packages, follow the lab support instructions in
+the assignment sheet. Do not commit your submission PDF unless your instructor
+explicitly requires it in the repository; the assignment asks for it as a
+separate PDF submission.

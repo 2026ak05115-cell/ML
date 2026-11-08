@@ -1,0 +1,6 @@
+Dataset: Breast Cancer Wisconsin Diagnostic
+Rows: 569
+Features: 30
+Target classes: benign, malignant
+Train rows: 426
+Test rows: 143
